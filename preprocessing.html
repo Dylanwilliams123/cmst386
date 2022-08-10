@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 for CMST 386</title>
+    <meta
+      name="description"
+      content="Project 1 for CMST 386 Principles of Web Design and Technology II. University of Maryland Global Campus. 1616 McCormick Dr, Largo, Maryland 20774"
+    />
+    <link rel="stylesheet" href="../css/css-reset.css" />
+    <link rel="stylesheet" href="../css/style.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Quattrocento:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img src="../images/logo-white.png" alt="Logo for Project 1 website" />
+    </header>
+    <div class="container">
+      <nav>
+        <div class="navparent">
+          <ul class="navbutton">
+            <li><a href="../index.html">Home</a></li>
+          </ul>
+          <ul class="navbutton">
+            <li><a href="Project-three.html">Project 3</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <div class="answers">
+        <div class="tbox">
+          <h2>Explain the ways to implement preprocessing</h2>
+          <p>
+            Client-side refers to processing that happens on the user's
+            computer. It implies that browsers execute the scripts locally,
+            without using the server for any processing. Server-side refers to
+            the fact that the processing happens on a web server.
+          </p>
+        </div>
+        <div class="tbox">
+          <h2>
+            Define and describes the mechanisms used in either LESS or SASS:
+            mixins, variables, functions, operators, nested variables.
+          </h2>
+          <p>
+            In SASS, features like variables, nesting, mixins, and selector
+            inheritance are available. Variables can be used as parameters for
+            functions or as outputs from such functions. The values of the
+            variables are added to the final CSS document during translation.
+            Code size may be decreased by the use of nesting. The goal is to
+            emulate your HTML structure with your CSS selector nesting. Nesting
+            makes a piece of code easier to read and maintain. A CSS
+            declarations group that may be used repeatedly across a website is
+            called a mixin. A well-known SASS feature called @extend enables
+            classes to exchange a set of attributes.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="hamburger-menu">
+      <div class="hamburger-div">
+        <div class="one"></div>
+      </div>
+
+      <div class="hamburger-div">
+        <div class="two"></div>
+      </div>
+
+      <div class="hamburger-div">
+        <div class="three"></div>
+      </div>
+    </div>
+    <script src="hamburger.js"></script>
+  </body>
+</html>
