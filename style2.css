@@ -1,0 +1,392 @@
+html {
+  height: 300%;
+}
+body {
+  background-image: linear-gradient(
+      19deg,
+      rgba(82, 80, 82, 0.623),
+      rgb(0, 0, 0)
+    ),
+    url("../images/lion.png");
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 1.125rem;
+  z-index: 100;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 300px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+.card1 {
+  background-image: url(../images/awards.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card2 {
+  background-image: url(../images/chair.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card3 {
+  background-image: url(../images/yellow.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card4 {
+  background-image: url(../images/ps5.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card5 {
+  background-image: url(../images/meta.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card6 {
+  background-image: url(../images/nike.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card7 {
+  background-image: url(../images/headphone.png);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card8 {
+  background-image: url(../images/alien.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card9 {
+  background-image: url(../images/gaming-chair.png);
+  background-size: contain;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card10 {
+  background-image: url(../images/hat.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card11 {
+  background-image: url(../images/hoodie.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card12 {
+  background-image: url(../images/sweats.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card13 {
+  background-image: url(../images/rdc.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card14 {
+  background-image: url(../images/cos.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card15 {
+  background-image: url(../images/game.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card16 {
+  background-image: url(../images/tooz.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card17 {
+  background-image: url(../images/purple.png);
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.card18 {
+  background-image: url(../images/shoe.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(91, 90, 90);
+}
+
+.cards a {
+  color: rgb(191, 45, 45);
+}
+
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
+  color: rgb(148, 22, 22);
+}
+.herobox2 {
+  flex: 1;
+  margin-top: 30px;
+  border: 1px solid rgb(91, 90, 90);
+}
+h1 {
+  font-size: 3.25rem;
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 1rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.324);
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif Display", serif;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-family: "Oswald", sans-serif;
+}
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.cards i {
+  font-size: 80px;
+}
+.mybutton {
+  background-color: white;
+  color: rgb(148, 22, 22);
+  font-family: "Noto Serif Display", serif;
+  padding: 11px 25px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.324);
+}
+.mybutton:hover {
+  background-color: rgb(97, 97, 97);
+  transition-duration: 1s;
+}
+
+.navbutton:hover {
+  background-color: rgb(97, 97, 97);
+  transition-duration: 1s;
+}
+
+nav a.mybutton {
+  margin-left: 30px;
+}
+.navbutton {
+  border: 1px solid white;
+  padding: 11px 25px;
+  font-family: "Noto Serif Display", serif;
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+
+.navbutton:hover .dropdown {
+  display: block;
+}
+.dropdown .navbutton {
+  width: 150px;
+  background-color: rgb(19, 19, 19);
+}
+.dropdown .navbutton a {
+  color: rgb(148, 22, 22);
+}
+
+.mybutton {
+  padding: 11px 25px;
+  margin-bottom: 20px;
+  font-family: "Noto Serif Display", serif;
+  border-style: none;
+}
+.herobox1 p {
+  color: white;
+}
+
+.email a {
+  text-decoration: underline;
+}
+
+.inputwrapper {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="Phone"],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-right-a {
+  margin-right: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+form {
+  margin: 40px 0px;
+}
